@@ -15,14 +15,7 @@ The project includes:
 
 ## Setup
 
-### 1. Clone and enter the project
-
-```bash
-git clone <your-repo-url>
-cd logo_detector
-```
-
-### 2. Install dependencies
+After cloning, install dependencies.
 
 Using uv (recommended):
 
