@@ -1,0 +1,11 @@
+data:
+  raw_images_dir_path: data/flickr_logos_27_dataset/flickr_logos_27_dataset_images
+  training_set_annotations_path: data/flickr_logos_27_dataset/flickr_logos_27_dataset_training_set_annotation.txt
+  validation_set_annotations_path: data/flickr_logos_27_dataset/flickr_logos_27_dataset_query_set_annotation.txt
+  processed_dir_path: data/processed
+  batch_size: 32
+
+training:
+  num_epochs: 3
+  learning_rate: 0.001
+  save_path: models/trained/model.pth

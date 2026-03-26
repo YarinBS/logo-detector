@@ -1,0 +1,28 @@
+[project]
+name = "logo-detector"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.135.2",
+    "pillow>=12.1.1",
+    "python-multipart>=0.0.22",
+    "pyyaml>=6.0.3",
+    "torch>=2.11.0",
+    "torchvision>=0.26.0",
+    "tqdm>=4.67.3",
+    "requests>=2.32.3",
+    "uvicorn>=0.42.0",
+    "streamlit>=1.55.0",
+    "kagglehub>=1.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+    "notebook>=7.5.5",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.org/simple"
