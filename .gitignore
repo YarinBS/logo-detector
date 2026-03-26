@@ -14,4 +14,3 @@ wheels/
 data/flickr_logos_27_dataset
 
 models/downloaded/checkpoints
-models/trained/model.pth
